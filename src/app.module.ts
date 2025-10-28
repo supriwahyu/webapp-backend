@@ -5,9 +5,11 @@ import { AuthModule } from './auth/auth.module';
 import { DatabaseModule } from './database/database.module';
 import { UsersModule } from './users/users.module';
 import { ConfigModule } from '@nestjs/config';
+import { ChatModule } from './chat/chat.module';
 
 @Module({
   imports: [
+    ChatModule,
     ConfigModule.forRoot({
       isGlobal: true,
     }),
