@@ -3,7 +3,7 @@ import { AuthService } from './auth.service';
 import { JwtAuthGuard } from './jwt-auth.guard';
 import { LoginDto, RegisterDto } from '../common/dto/auth.dto';
 
-@Controller('auth')
+@Controller('api')
 export class AuthController {
   constructor(private readonly authService: AuthService) {}
 
