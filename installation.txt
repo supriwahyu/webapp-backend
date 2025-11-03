@@ -1,0 +1,6 @@
+create .env dengan variable berikut:
+- JWT_SECRET
+- JWT_EXPIRES_IN
+- DATABASE_URL
+
+kalau sudah tersambung run dengan npm run start:dev
